@@ -50,7 +50,7 @@ module.exports = (() => {
 		const plugin = (Plugin, Library) => {
 			const { Patcher, React, Utilities } = BdApi;
 			const Attachment = BdApi.findModule((m) => m.default?.displayName === "Attachment");
-			const videoExtensions = ["webm", "mp4", "mkv", "ogg", "wav", "hls", "mov", "mpeg4", "quicktime"];
+			const videoExtensions = ["webm", "mp4", "mkv", "hls", "mov", "mpeg4", "quicktime"];
 
 			return class PlayAllVideos extends Plugin {
 				async onStart() {
