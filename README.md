@@ -3,7 +3,7 @@ I'm not a react developer, nor do I have any experience making discord plugins, 
 ## PlayAllVideos
 
 The plugin let's you play any video that chromium supports<br/>
-Tested containers: mkv, mp4, webm<br/>
+Tested containers: mkv, mp4, webm, hls, mov, mpeg4, quicktime<br/>
 Tested codecs: AV1<br/>
 
 I wanted to be able to share AV1 encoded videos on discord but they just refuse to support it for some reason, even though discord runs on electron which runs on chromium and chromium supports AV1 playback.<br/>
