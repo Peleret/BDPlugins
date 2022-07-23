@@ -1,5 +1,3 @@
-I'm not a react developer, nor do I have any experience making discord plugins, but I know some javascript and I have made a few websites in the past.<br/>
-
 ## PlayAllVideos
 
 The plugin let's you play any video that chromium supports<br/>
