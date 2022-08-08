@@ -84,7 +84,7 @@ module.exports = (() => {
 							
 							for(const element of document.getElementsByClassName('loadVol')){
 								element.className = ""; //Prevent elements from being looped over in the future
-								element.volume = BdApi.loadData(config.info.name,"volume",) || 1;
+								element.volume = BdApi.loadData(config.info.name,"volume") || 1;
 								element.addEventListener("volumechange",(e)=>{
 									BdApi.saveData(config.info.name,"volume",e.target.volume);
 								})
