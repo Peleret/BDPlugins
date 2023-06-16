@@ -1,3 +1,6 @@
+## The code is outdated and as I no longer use better discord I'm not willing to maintain it
+## Feel free to fork or use the code as you want
+
 # PlayAllVideos
 
 The plugin let's you play any video that chromium supports<br/>
